@@ -2,7 +2,6 @@
 <?php
 require_once('conn.php');
 global $statusMsg1;
-global $status;
 
 session_start();
 if (isset($_SESSION["user"]))
